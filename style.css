@@ -1,0 +1,158 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul { 
+  list-style: none; padding-left: 5px; 
+}
+
+a { 
+  color:blue; text-decoration: none;
+}
+
+.bar {
+  background-color: #f9f9fb;
+  padding:15px;
+  border-top: solid 1px #cdcdcd;
+  border-bottom: solid 1px #cdcdcd;
+
+}
+.content {
+  max-width: 1440px;
+  margin: auto;
+  grid-gap: 3rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-areas: "sidebar main anchors";
+  grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.footer {
+  min-height: 100px;
+  border-top: solid 1px #cdcdcd;
+}
+
+.anchors {
+  border-left: solid 1px #cdcdcd;
+  padding-left: 15px;
+}
+
+.sidebar {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  }
+
+.sidebar a {
+  color: #333;
+  transition: color 0.3s ease;
+  }
+  
+.sidebar a:hover {
+  color: black; 
+  font-weight: bold; 
+  }
+  
+figure {
+  text-align: center;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #2d4059;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 3px solid #1d2c3c;
+}
+
+td {
+  background-color: #e0e0e0;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+img {
+  align-content: center;
+  align-self: center;
+  width: 750px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200px;
+  background-color: #f1f1f1;
+}
+  
+.logo-container {
+  margin-left: 5px; 
+}
+  
+.logo-container img {
+  height: 240px; 
+}
+
+.article-nav {
+  width: 100%;
+}
+  
+.anchors {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+}
+  
+.anchors h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+  
+.anchors ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+  
+.anchors li {
+  margin-bottom: 30px;
+}
+  
+.anchors a {
+  color: #666;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+  
+.anchors a:hover {
+  color: #333;
+  font-weight: bold;
+}
+
+footer {
+text-align: center;
+font-size: small;
+
+}
